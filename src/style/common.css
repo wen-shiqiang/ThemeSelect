@@ -1,0 +1,21 @@
+:root{
+    --text-color:#333;
+    --bg1:hsl(144,100%,89%);
+    --bg2:hsl(42,94%,76%);
+}
+
+@media (prefers-color-scheme: dark) {
+    html[data-theme='dark']{
+        --text-color:#fff;
+        --bg1:hsl(198,44%,11%);
+        --bg2:hsl(198,39%,29%);
+    }
+  }
+  
+@media (prefers-color-scheme: light) {
+    :root{
+        --text-color:#333;
+        --bg1:hsl(144,100%,89%);
+        --bg2:hsl(42,94%,76%);
+    }
+}
