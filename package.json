@@ -10,12 +10,15 @@
   },
   "dependencies": {
     "element-plus": "^2.3.9",
+    "vite-plugin-pwa": "^0.16.4",
     "vue": "^3.3.4",
     "vue-multiselect": "^3.0.0-beta.2",
     "vue-router": "^4.2.4"
   },
   "devDependencies": {
+    "@vitejs/plugin-basic-ssl": "^1.0.1",
     "@vitejs/plugin-vue": "^4.2.3",
-    "vite": "^4.4.5"
+    "vite": "^4.4.5",
+    "vite-plugin-mkcert": "^1.16.0"
   }
 }
